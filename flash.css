@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  align-items: center;
+  display: grid;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+ 
+}
+.message-img{
+  margin: 1%  auto;
+  width: 25%;
+}
+h2{
+  color:#076ab5;
+  padding: 1.5em 0;
+}
+form{
+  margin: 1em auto;
+}
+.form-group{
+   margin-bottom: 2em;
+}
+label,.text{
+  color: #076ab5;
+}
+.form-control{
+  border: none;
+
+}
+.btn{
+ background-color: #076ab5;
+  height: 60px;
+  letter-spacing: 2em;
+  margin: 1.5em auto;
+  width: 100%;
+}
+
+
+
